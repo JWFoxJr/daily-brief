@@ -5,7 +5,7 @@ function Weather() {
   const [city, setCity] = useState(() => localStorage.getItem('fallbackCity') || '');
   const [input, setInput] = useState('');
   const [unit, setUnit] = useState('F'); // F or C
-  const apiKey = '594d57c4f6325750218f5725127a81e9';
+  const apiKey = '<YOUR API KEY>';
   
   // Generic fetch logic
   function fetchWeather(url) {
