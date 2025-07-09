@@ -5,7 +5,7 @@ function Weather() {
   const [city, setCity] = useState(() => localStorage.getItem('fallbackCity') || '');
   const [input, setInput] = useState('');
   const [unit, setUnit] = useState('F'); // F or C
-  const apiKey = 'import.meta.env.VITE_WEATHER_API_KEY';
+  const apiKey = '<YOUR API KEY>';
   
   // Generic fetch logic
   function fetchWeather(url) {
