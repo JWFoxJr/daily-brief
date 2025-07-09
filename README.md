@@ -15,7 +15,7 @@ A responsive, mobile-friendly React dashboard with draggable widgets for daily p
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/your-username/daily-brief.git
+git clone https://github.com/JWFoxJr/daily-brief.git
 cd daily-brief
 npm install
 npm run dev
@@ -33,7 +33,9 @@ Then open [http://localhost:5173](http://localhost:5173)
 
 ## 📸 Screenshots
 
-> _(Add a few screenshots or a .gif here showing the layout, drag-and-drop, and dark mode)_
+| Widget Layout | Dark Mode |
+|---------------|-----------|
+| ![Dashboard Layout](./screenshots/layout.png) | ![Dark Mode](./screenshots/dark-mode.png) |
 
 ## 🌐 Live Demo
 
