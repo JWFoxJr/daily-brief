@@ -1,12 +1,49 @@
-# React + Vite
+# 🌤️ Daily Brief Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, mobile-friendly React dashboard with draggable widgets for daily productivity and clarity. Built from scratch using Vite, Tailwind CSS, and modern React hooks.
 
-Currently, two official plugins are available:
+## 📦 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ **Quote of the Day** from Quotable API
+- ✅ **Weather** via OpenWeatherMap API with geolocation + fallback
+- ✅ **To-Do List** with edit, delete, and reorder support
+- ✅ **Dark Mode** using system preference + localStorage toggle
+- ✅ **Drag & Drop Widgets** with `dnd-kit` and persistent layout
+- ✅ **Responsive Layout** for mobile, tablet, and desktop
+- ✅ **Framer Motion** animations for smooth UI transitions
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/your-username/daily-brief.git
+cd daily-brief
+npm install
+npm run dev
+```
+
+Then open [http://localhost:5173](http://localhost:5173)
+
+## 🛠 Tech Stack
+
+- [React 19](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [dnd-kit](https://dndkit.com/)
+
+## 📸 Screenshots
+
+> _(Add a few screenshots or a .gif here showing the layout, drag-and-drop, and dark mode)_
+
+## 🌐 Live Demo
+
+Coming soon at [https://jwfoxjr.com](https://jwfoxjr.com)
+
+## 🙌 Author
+
+**Joe Fox**  
+GitHub: [@jwfoxjr](https://github.com/jwfoxjr)
+
+---
+
+_“Anything worth doing is hard work.”_
