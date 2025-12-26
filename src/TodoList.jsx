@@ -62,7 +62,7 @@ function TodoList () {
       onKeyDown={e => e.key === 'Enter' && addTask()}
       placeholder="What do you want to do?"
     />
-    <button onClick={addTask}>Add</button>
+    <button onClick={addTask} style={{ marginLeft: '0.5em' }} className="px-2 py-1 rounded hover:bg-green-200 dark:hover:bg-green-800 border">+ Add</button>
     <ul>
     {tasks.map((task, i) => (
       <li key={i}>
