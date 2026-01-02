@@ -7,7 +7,7 @@ function Weather() {
   )
   const [input, setInput] = useState('')
   const [unit, setUnit] = useState('F') // F or C
-  const apiKey = 'import.meta.env.VITE_WEATHER_API_KEY'
+  const apiKey = import.meta.env.VITE_WEATHER_API_KEY
 
   // Generic fetch logic
   function fetchWeather(url) {
